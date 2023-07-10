@@ -1,10 +1,13 @@
-const Video = () => {
-    return (
-      <video controls width="80%" className="m-auto pb-20">
-        <source src="./src/assets/vids/lvl1.mp4" type="video/mp4" />
-        Sorry, your browser doesn't support videos.
-      </video>
-    );
-  };
-  
-  export default Video;
+import ReactPlayer from 'react-player';
+import React, { useRef } from 'react';
+const VIDEO_PATH = 'https://youtu.be/Ygnou642f2Q';
+
+function Video() {
+   const playerRef = useRef(null);
+   return (
+      <div>
+         <ReactPlayer ref={playerRef} url={VIDEO_PATH} controls={true} />
+      </div>
+   )
+};
+export default Video;
