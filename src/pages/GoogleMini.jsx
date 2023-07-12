@@ -2,7 +2,7 @@ import React from 'react'
 import { SectionWrapper } from '../hoc';
 import { motion } from "framer-motion"
 import { styles } from "../styles"
-import { fadeIn, textVariant } from "../utils/motion"
+import { textVariant } from "../utils/motion"
 import { gm } from '../assets';
 
 const GoogleMini = () => {

@@ -186,7 +186,7 @@ import {
       name: "Canon Lens Replica",
       description:
         "A 3D replica of the Canon 70mm - 300mm Kit Lens.",
-      url: 'canonlensreplica',
+      url: 'canonlens',
       tags: [
         {
           name: "tinkercad",

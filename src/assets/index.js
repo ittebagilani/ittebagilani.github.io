@@ -23,8 +23,20 @@ import jh3 from "./jh3.webp";
 import googlePlay from "./googleplay.png";
 import lensLogo from "./lensLogo.png";
 import roomLogo from "./roomLogo.png";
+import room1 from "./room1.png";
+import room2 from "./room2.png";
+import room3 from "./room3.png";
+import camera1 from "./camera1.png";
+import camera2 from "./camera2.png";
+import camera3 from "./camera3.png";
 
 export {
+  room1,
+  room2,
+  room3,
+  camera1,
+  camera2,
+  camera3,
   roomLogo,
   lensLogo,
   jh1,
