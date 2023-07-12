@@ -22,10 +22,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className="text-[#dfd9ff] text-[30px] font-bold cursor-pointer flex">
+          {/* <p className="text-[#dfd9ff] text-[30px] font-bold cursor-pointer flex">
             IG. &nbsp;
             <span className="sm:block hidden"></span>
-          </p>
+          </p> */}
+          <img src="./src/assets/home.png" width={40} height={40}/>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">

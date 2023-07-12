@@ -21,8 +21,12 @@ import jh1 from "./jh1.webp";
 import jh2 from "./jh2.webp";
 import jh3 from "./jh3.webp";
 import googlePlay from "./googleplay.png";
+import lensLogo from "./lensLogo.png";
+import roomLogo from "./roomLogo.png";
 
 export {
+  roomLogo,
+  lensLogo,
   jh1,
   jh2,
   jh3,
