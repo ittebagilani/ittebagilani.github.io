@@ -26,7 +26,7 @@ const Navbar = () => {
             IG. &nbsp;
             <span className="sm:block hidden"></span>
           </p> */}
-          <img src="./src/assets/home.png" width={45} height={45}/>
+          <img src="../src/assets/home.png" width={45} height={45}/>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
