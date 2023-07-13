@@ -33,6 +33,10 @@ const BeyondEarth = () => {
               alt={"Project Boost - 2"}
               className="mt-auto self-center"
             />
+
+            <video width="1200px" height="1000px" controls="controls" className="pt-10">
+              <source src="/src/assets/beyondearth.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </motion.div>
