@@ -29,6 +29,9 @@ import room3 from "./room3.png";
 import camera1 from "./camera1.png";
 import camera2 from "./camera2.png";
 import camera3 from "./camera3.png";
+import camera4 from "./camera4.png";
+import camera5 from "./camera5.png";
+import camera6 from "./camera6.png";
 
 export {
   room1,
@@ -37,6 +40,9 @@ export {
   camera1,
   camera2,
   camera3,
+  camera4,
+  camera5,
+  camera6,
   roomLogo,
   lensLogo,
   jh1,

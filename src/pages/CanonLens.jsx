@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-import { camera1, camera2, camera3 } from "../assets";
+import { camera1, camera2, camera3, camera4, camera5, camera6 } from "../assets";
 
 const CanonLens = () => {
   return (
@@ -41,6 +41,27 @@ const CanonLens = () => {
           <img
             src={camera3}
             alt={"Camera 3"}
+            className="mt-auto self-center pb-10"
+            width={800}
+          />
+
+          <img
+            src={camera4}
+            alt={"Camera 4"}
+            className="mt-auto self-center pb-10"
+            width={800}
+          />
+
+          <img
+            src={camera5}
+            alt={"Camera 6"}
+            className="mt-auto self-center pb-10"
+            width={800}
+          />
+
+          <img
+            src={camera6}
+            alt={"Camera 6"}
             className="mt-auto self-center pb-10"
             width={800}
           />
