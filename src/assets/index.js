@@ -32,8 +32,10 @@ import camera3 from "./camera3.png";
 import camera4 from "./camera4.png";
 import camera5 from "./camera5.png";
 import camera6 from "./camera6.png";
+import homeLogo from "./homeicon.png";
 
 export {
+  homeLogo,
   room1,
   room2,
   room3,

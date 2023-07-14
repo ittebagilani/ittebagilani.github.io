@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, homeLogo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("`");
@@ -26,7 +26,7 @@ const Navbar = () => {
             IG. &nbsp;
             <span className="sm:block hidden"></span>
           </p> */}
-          <img src="/src/assets/homeicon.png" width={45} height={45}/>
+          <img src={homeLogo} width={45} height={45}/>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
