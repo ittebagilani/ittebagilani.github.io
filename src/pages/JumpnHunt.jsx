@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-import { googlePlay, jh1, jh2, jh3 } from "../assets";
+import { googlePlay, jh1, jh2, jh3, jhvideo } from "../assets";
 
 const JumpnHunt = () => {
   return (
@@ -31,6 +31,9 @@ const JumpnHunt = () => {
         </div>
         <div className="flex flex-col justify-center">
           <img src={jh1} alt={"JH1"} className="mt-auto self-center pb-10" />
+          <video width={1200} controls className="m-auto">
+            <source src={jhvideo} type="video/mp4"/>
+          </video>
           {/* <img src={jh2} alt={"JH2"} className="mt-auto self-center pb-10" /> */}
           {/* <img src={jh3} alt={"JH3"} className="mt-auto self-center" /> */}
         </div>
