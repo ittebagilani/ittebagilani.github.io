@@ -34,8 +34,10 @@ import camera5 from "./camera5.png";
 import camera6 from "./camera6.png";
 import homeLogo from "./homeicon.png";
 import jhvideo from "./lvl1.mp4";
+import pbvid from "./beyondearth.mp4";
 
 export {
+  pbvid,
   jhvideo,
   homeLogo,
   room1,

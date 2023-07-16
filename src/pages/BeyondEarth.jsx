@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-import { boost1, boost2 } from "../assets";
+import { boost1, boost2, pbvid } from "../assets";
 
 const BeyondEarth = () => {
   return (
@@ -18,9 +18,9 @@ const BeyondEarth = () => {
           </p>
         </div>
         <div className="text-[#b1a7d4] text-lg p-10">
-          Beyond Earth is a game I created using the Unity game engine. It consists
-          of the player piloting a rocket from the start position to the end. It 
-          will be soon released to the Google Play Store.
+          Beyond Earth is a game I created using the Unity game engine. It
+          consists of the player piloting a rocket from the start position to
+          the end. It will be soon released to the Google Play Store.
           <div className="flex flex-col justify-center pt-10">
             <img
               src={boost1}
@@ -31,12 +31,12 @@ const BeyondEarth = () => {
             <img
               src={boost2}
               alt={"Project Boost - 2"}
-              className="mt-auto self-center"
+              className="mt-auto self-center pb-10"
             />
 
-            {/* <video width="1200px" height="1000px" controls="controls" className="pt-10">
-              <source src="../src/assets/beyondearth.mp4" type="video/mp4" />
-            </video> */}
+            <video width={1200} controls className="m-auto">
+              <source src={pbvid} type="video/mp4" />
+            </video>
           </div>
         </div>
       </motion.div>

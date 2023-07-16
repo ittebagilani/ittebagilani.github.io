@@ -23,7 +23,7 @@ const Main = () => {
       <Route exact path='/googlemini' element={[<Navbar />, <StarsCanvas />, <GoogleMini />]}></Route>
       <Route exact path='/sentenceparser' element={[<Navbar />, <StarsCanvas />, <SentenceParser />]}></Route>
       <Route exact path='/nimai' element={[<Navbar />, <StarsCanvas />, <NimAI />]}></Route>
-      <Route exact path='/beyondearth' element={[<Navbar />, <StarsCanvas />, <BeyondEarth />, <BeyondVideo />]}></Route>
+      <Route exact path='/beyondearth' element={[<Navbar />, <StarsCanvas />, <BeyondEarth />]}></Route>
       <Route exact path='/jumpnhunt' element={[<Navbar />, <StarsCanvas />, <JumpnHunt />]}></Route>
       <Route exact path='/canonlens' element={[<Navbar />, <StarsCanvas />, <CanonLens />]}></Route>
       <Route exact path='/paradisechamber' element={[<Navbar />, <StarsCanvas />, <ParadiseChamber />]}></Route>
