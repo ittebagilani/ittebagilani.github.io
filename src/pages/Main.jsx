@@ -10,10 +10,10 @@ import SentenceParser from './SentenceParser';
 import NimAI from './NimAI';
 import BeyondEarth from './BeyondEarth';
 import JumpnHunt from './JumpnHunt';
-import Video from '../components/Video';
+// import Video from '../components/Video';
 import CanonLens from './CanonLens';
 import ParadiseChamber from './ParadiseChamber';
-import BeyondVideo from '../components/BeyondVideo';
+// import BeyondVideo from '../components/BeyondVideo';
 
 const Main = () => {
   return (
