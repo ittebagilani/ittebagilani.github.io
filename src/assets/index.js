@@ -35,8 +35,26 @@ import camera6 from "./camera6.png";
 import homeLogo from "./homeicon.png";
 import jhvideo from "./lvl1.mp4";
 import pbvid from "./beyondearth.mp4";
+import cube from "./cube.png";
+import data from "./data.png";
+import building from "./gallery/building0.jpg";
+import bus from "./gallery/bus.png";
+import longwayahead from "./gallery/longwayahead.jpg";
+import moon from "./gallery/moon.png";
+import road from "./gallery/road.png";
+import sailboat from "./gallery/sailboat.jpg";
+import spades from "./gallery/spades.png";
 
 export {
+  building,
+  bus,
+  longwayahead,
+  moon,
+  road,
+  sailboat,
+  spades,
+  data,
+  cube,
   pbvid,
   jhvideo,
   homeLogo,
