@@ -19,6 +19,7 @@ import GameDev from '../components/GameDev';
 import DataScience from '../components/DataScience';
 import Photography from '../components/Photography';
 import Design from '../components/Design';
+import Sidebar from '../components/Sidebar';
 
 const Main = () => {
   return (
@@ -26,7 +27,8 @@ const Main = () => {
     
       <ScrollToTop />
       <Routes>
-        <Route exact path='/' element={[<Navbar />, <StarsCanvas />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Contact/>]}></Route>
+        {/* <Route exact path='/' element={[<Navbar />, <StarsCanvas />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route> */}
+        <Route exact path='/' element={[<Sidebar />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route>
         <Route exact path='/traffic' element={[<Navbar />, <StarsCanvas />, <TrafficSign />]}></Route>
         <Route exact path='/googlemini' element={[<Navbar />, <StarsCanvas />, <GoogleMini />]}></Route>
         <Route exact path='/sentenceparser' element={[<Navbar />, <StarsCanvas />, <SentenceParser />]}></Route>
@@ -36,9 +38,6 @@ const Main = () => {
         <Route exact path='/canonlens' element={[<Navbar />, <StarsCanvas />, <CanonLens />]}></Route>
         <Route exact path='/paradisechamber' element={[<Navbar />, <StarsCanvas />, <ParadiseChamber />]}></Route>
         <Route exact path='/gamedev' element={[<Navbar />, <StarsCanvas />, <GameDev />]}></Route>
-        {/* <Route exact path='/photography' element={[<Navbar />, <StarsCanvas />]}></Route>
-        <Route exact path='/3d' element={[<Navbar />, <StarsCanvas />]}></Route>
-        <Route exact path='/datascience' element={[<Navbar />, <StarsCanvas />]}></Route> */}
       </Routes>
     
     </>

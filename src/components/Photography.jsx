@@ -2,7 +2,7 @@ import React from 'react'
 import { SectionWrapper } from '../hoc';
 import { motion } from 'framer-motion';
 import { textVariant } from '../utils/motion';
-// import Gallery from './Gallery';
+import Gallery from './Gallery';
 
 const Photography = () => {
   return (
