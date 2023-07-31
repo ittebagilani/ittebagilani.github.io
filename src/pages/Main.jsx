@@ -28,7 +28,7 @@ const Main = () => {
       <ScrollToTop />
       <Routes>
         {/* <Route exact path='/' element={[<Navbar />, <StarsCanvas />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route> */}
-        <Route exact path='/' element={[<Sidebar />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route>
+        <Route exact path='/' element={[<Sidebar />, <StarsCanvas />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route>
         <Route exact path='/traffic' element={[<Navbar />, <StarsCanvas />, <TrafficSign />]}></Route>
         <Route exact path='/googlemini' element={[<Navbar />, <StarsCanvas />, <GoogleMini />]}></Route>
         <Route exact path='/sentenceparser' element={[<Navbar />, <StarsCanvas />, <SentenceParser />]}></Route>
