@@ -63,28 +63,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects showcases my skills and experience. Each
-          project is briefly described with links to code repositories and live
-          demos in it. It reflects my ability to solve complex problems, work
-          with different technologies, and manage projects effectively.
+          My skills and experience are showcased through the following projects. 
+          Each project is concisely described and complemented by visuals, such
+          as images or videos, showcasing their functionality. This portfolio 
+          reflects my proficiency in tackling intricate challenges, adeptness 
+          with various technologies, and effective project management.
         </motion.p>
       </div>
-
-      {/* <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => {
-          return (
-            <>
-              <Link to={`${project.url}`} key={index}>
-                <ProjectCard
-                  key={`project-${index}`}
-                  index={index}
-                  {...project}
-                />
-              </Link>
-            </>
-          );
-        })}
-      </div> */}
     </>
   );
 };

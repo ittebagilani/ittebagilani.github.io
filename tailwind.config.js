@@ -21,6 +21,10 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/bghero.jpg')",
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'Belanosima' : ['Belanosima', 'sans-serif']
+      },
     },
   },
   plugins: [],

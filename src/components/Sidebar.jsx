@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   const [open, setOpen] = useState(true);
   return (
-    <div className="flex h-[600px] pt-[125px] pl-10 fixed z-50">
+    <div className="flex h-[600px] pt-[125px] pl-10 fixed z-5">
       <div
         className={`bg-tertiary h-[400px] p-5 pt-[75px] items-center justify-center
         w-[55px] duration-300 relative rounded-2xl`}
@@ -18,18 +18,17 @@ const Sidebar = () => {
           <li
             className={`hover:text-white text-[18px] font-medium flex flex-col cursor-pointer pb-10`}
           >
-            <RiHome2Line
-              className={`text-3xl cursor-pointer block float-left -ml-2 justify-center y`}
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-            />
+            <a href={window.location.href === "/" ? "#home" : "/#home"} className="flex flex-col">
+              <RiHome2Line
+                className={`text-3xl cursor-pointer block float-left -ml-2 justify-center y`}
+              />
+            </a>
           </li>
 
           <li
             className={`hover:text-white text-[18px] font-medium flex flex-col cursor-pointer pb-10`}
           >
-            <a href="#about" className="flex flex-col">
+            <a href={window.location.href === "/" ? "#about" : "/#about"} className="flex flex-col">
               <BsPerson
                 className={`text-3xl cursor-pointer block float-left -ml-2 justify-center y`}
               />
@@ -39,7 +38,10 @@ const Sidebar = () => {
           <li
             className={`hover:text-white text-[18px] font-medium flex flex-col cursor-pointer pb-10`}
           >
-            <a href="#projects" className="flex flex-col">
+            <a
+              href={window.location.href === "/" ? "#projects" : "/#projects"}
+              className="flex flex-col"
+            >
               <MdWorkOutline
                 className={`text-3xl cursor-pointer block float-left -ml-2 justify-center y`}
               />
@@ -49,7 +51,7 @@ const Sidebar = () => {
           <li
             className={`hover:text-white text-[18px] font-medium flex flex-col cursor-pointer pb-10`}
           >
-            <a href="#contact" className="flex flex-col">
+            <a href={window.location.href === "/" ? "#contact" : "/#contact"} className="flex flex-col">
               <AiOutlineMail
                 className={`text-3xl cursor-pointer block float-left -ml-2 justify-center y`}
               />

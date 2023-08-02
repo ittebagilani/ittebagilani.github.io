@@ -165,27 +165,27 @@ const aiProjects = [
     ],
     image: sentenceParserLogo,
   },
-  {
-    name: "Nim AI",
-    description:
-      "Trained a model using reinforcement learning to play the game of Nim.",
-    url: "nimai",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "reinforcementlearning",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ai",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nimLogo,
-  },
+  // {
+  //   name: "Nim AI",
+  //   description:
+  //     "Trained a model using reinforcement learning to play the game of Nim.",
+  //   url: "nimai",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "reinforcementlearning",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "ai",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: nimLogo,
+  // },
 ]
 const designProjects = [
   

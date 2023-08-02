@@ -23,8 +23,12 @@ const TrafficSign = () => {
           TensorFlow is a popular open source developed by Google that allows
           you to build various machine learning models, particularly, neural
           networks. In this project, I used a public dataset known as the German
-          Traffic Sign Recognition Benchmark (GTSRB) on which I trained and
-          tested my neural network.
+          Traffic Sign Recognition Benchmark (GTSRB) which I split into training
+          and testing sets. I used the training set to train the model as is shown 
+          by the 10 epochs. On the training set, the model reached an accuracy of 
+          about 96%. Then, as is evident from the last line in the picture, on  
+          the test set, which were signs that the model had not seen before, the 
+          model reached an accuracy of approximately 95%.   
         </div>
 
         <div className="flex justify-center">

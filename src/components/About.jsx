@@ -46,15 +46,22 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
       >
-        I am a versatile developer with a diverse skill set that encompasses web
-        development, game development, and AI technologies. In the world of web
-        development, I am well-versed in utilizing cutting-edge tools such as
-        Three.js, React, and Tailwind CSS. Venturing into game development, I
-        have harnessed the power of Unity and Unreal Engine 4 to create
-        captivating virtual worlds and engaging gameplay experiences. In the
-        realm of AI technologies, I have delved into PyTorch and Fast.ai, honing
-        my skills in various projects ranging from computer vision to natural
-        language processing.
+        I'm a second-year university student, specializing in a unique program 
+        that integrates mechanical, electrical, and software engineering concepts. 
+        As a versatile developer, I possess a diverse skill set encompassing web 
+        development, game development, and AI technologies. In the realm of web 
+        development, I am proficient in utilizing cutting-edge tools like Three.js, 
+        React, and Tailwind CSS to create dynamic and engaging websites. When it 
+        comes to game development, I harness the power of Unity and Unreal Engine 
+        4 to craft captivating virtual worlds and exciting gameplay experiences. 
+        Additionally, I have extensive experience in AI technologies, having explored
+        PyTorch and Fast.ai in various projects, including computer vision and natural
+        language processing tasks.
+
+
+
+
+
       </motion.p>
 
       <div className="mt-20 flex flex-row gap-10 cursor-pointer">

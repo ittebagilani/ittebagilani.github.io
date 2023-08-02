@@ -30,7 +30,9 @@ const GoogleMini = () => {
           Wikipedia page. Once the knowledge has been fed, the user is prompted
           for a query that the AI model then uses the term frequency-inverse 
           document frequency algorithm to find a result that can as closely 
-          answer the query as possible.
+          answer the query as possible. Of course, the model's knowledge is
+          limited to the corpus of topics provided, and any query that requires
+          outside knowledge may result in a completely arbitrary answer.
  
         </div>
 

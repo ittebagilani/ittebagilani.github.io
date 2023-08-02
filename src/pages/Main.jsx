@@ -10,10 +10,8 @@ import SentenceParser from './SentenceParser';
 import NimAI from './NimAI';
 import BeyondEarth from './BeyondEarth';
 import JumpnHunt from './JumpnHunt';
-// import Video from '../components/Video';
 import CanonLens from './CanonLens';
 import ParadiseChamber from './ParadiseChamber';
-// import BeyondVideo from '../components/BeyondVideo';
 import ScrollToTop from '../components/ScrollToTop';
 import GameDev from '../components/GameDev';
 import DataScience from '../components/DataScience';
@@ -27,17 +25,16 @@ const Main = () => {
     
       <ScrollToTop />
       <Routes>
-        {/* <Route exact path='/' element={[<Navbar />, <StarsCanvas />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route> */}
-        <Route exact path='/' element={[<Sidebar />, <StarsCanvas />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route>
-        <Route exact path='/traffic' element={[<Navbar />, <StarsCanvas />, <TrafficSign />]}></Route>
-        <Route exact path='/googlemini' element={[<Navbar />, <StarsCanvas />, <GoogleMini />]}></Route>
-        <Route exact path='/sentenceparser' element={[<Navbar />, <StarsCanvas />, <SentenceParser />]}></Route>
-        <Route exact path='/nimai' element={[<Navbar />, <StarsCanvas />, <NimAI />]}></Route>
-        <Route exact path='/beyondearth' element={[<Navbar />, <StarsCanvas />, <BeyondEarth />]}></Route>
-        <Route exact path='/jumpnhunt' element={[<Navbar />, <StarsCanvas />, <JumpnHunt />]}></Route>
-        <Route exact path='/canonlens' element={[<Navbar />, <StarsCanvas />, <CanonLens />]}></Route>
-        <Route exact path='/paradisechamber' element={[<Navbar />, <StarsCanvas />, <ParadiseChamber />]}></Route>
-        <Route exact path='/gamedev' element={[<Navbar />, <StarsCanvas />, <GameDev />]}></Route>
+        <Route exact path='/' element={[<Sidebar />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route>
+        <Route exact path='/traffic' element={[<Sidebar />, <TrafficSign />]}></Route>
+        <Route exact path='/googlemini' element={[<Sidebar />, <GoogleMini />]}></Route>
+        <Route exact path='/sentenceparser' element={[<Sidebar />, <SentenceParser />]}></Route>
+        <Route exact path='/nimai' element={[<Sidebar />, <NimAI />]}></Route>
+        <Route exact path='/beyondearth' element={[<Sidebar />, <BeyondEarth />]}></Route>
+        <Route exact path='/jumpnhunt' element={[<Sidebar />, <JumpnHunt />]}></Route>
+        <Route exact path='/canonlens' element={[<Sidebar />, <CanonLens />]}></Route>
+        <Route exact path='/paradisechamber' element={[<Sidebar />, <ParadiseChamber />]}></Route>
+        <Route exact path='/gamedev' element={[<Sidebar />, <GameDev />]}></Route>
       </Routes>
     
     </>
