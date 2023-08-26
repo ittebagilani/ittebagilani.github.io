@@ -27,7 +27,7 @@ const JumpnHunt = () => {
         </div>
         
         <div className="rounded-full cursor-pointer justify-center items-center pb-10">
-          <img src={googlePlay} className="w-[200px] h-[170px] m-auto" onClick={() => window.open("https://play.google.com", "_blank")}/>
+          <img src={googlePlay} className="w-[200px] h-[170px] m-auto" onClick={() => window.open("https://play.google.com/store/apps/details?id=com.DefaultCompany.DragNShoot", "_blank")}/>
         </div>
         <div className="flex flex-col justify-center">
           <img src={jh1} alt={"JH1"} className="mt-auto self-center pb-10" />
