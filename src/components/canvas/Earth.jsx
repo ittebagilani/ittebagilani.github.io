@@ -12,7 +12,7 @@ const Earth = () => {
     
     <mesh>
       <directionalLight 
-        intensity={2}
+        intensity={1}
         
       />
       <spotLight 
@@ -21,7 +21,7 @@ const Earth = () => {
       />
       <primitive 
       object={earth.scene}
-      scale={2.5}
+      scale={0.005}
       position-y={0}
       rotation-y={0}
       />
