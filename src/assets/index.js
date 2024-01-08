@@ -44,6 +44,7 @@ import moon from "./gallery/moon.png";
 import road from "./gallery/road.png";
 import sailboat from "./gallery/sailboat.jpg";
 import spades from "./gallery/spades.png";
+import llm from "./llm.jpg";
 
 export {
   building,
@@ -91,5 +92,6 @@ export {
   jumpnHuntLogo,
   googleMiniLogo,
   trafficSignLogo,
-  googlePlay
+  googlePlay,
+  llm
 };

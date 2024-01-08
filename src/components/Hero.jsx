@@ -3,9 +3,6 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
-// import { LoopOnce } from 'three';
-// import { EarthCanvas } from './canvas'
-// import { RobotCanvas } from './canvas'
 
 const Hero = () => {
   return (

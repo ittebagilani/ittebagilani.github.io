@@ -18,6 +18,8 @@ import DataScience from '../components/DataScience';
 import Photography from '../components/Photography';
 import Design from '../components/Design';
 import Sidebar from '../components/Sidebar';
+import RecentProjects from '../components/RecentProjects';
+import LLM from './LLM';
 
 const Main = () => {
   return (
@@ -25,8 +27,9 @@ const Main = () => {
     
       <ScrollToTop />
       <Routes>
-        <Route exact path='/' element={[<Sidebar />, <Hero />, <About />, <Works />, <GameDev />, <DataScience />, <Design />, <Photography />, <Contact/>]}></Route>
+        <Route exact path='/' element={[<Sidebar />, <Hero />, <About />, <Works />, <DataScience />, <GameDev />, <Design />, <Photography />, <Contact/>]}></Route>
         <Route exact path='/traffic' element={[<Sidebar />, <TrafficSign />]}></Route>
+        <Route exact path='/llm' element={[<Sidebar />, <LLM />]}></Route>
         <Route exact path='/googlemini' element={[<Sidebar />, <GoogleMini />]}></Route>
         <Route exact path='/sentenceparser' element={[<Sidebar />, <SentenceParser />]}></Route>
         <Route exact path='/nimai' element={[<Sidebar />, <NimAI />]}></Route>

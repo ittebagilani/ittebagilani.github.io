@@ -11,6 +11,7 @@ const Earth = () => {
   return (
     
     <mesh>
+      <hemisphereLight intensity={0.5} groundColor='white' />
       <directionalLight 
         intensity={1}
         
@@ -18,7 +19,11 @@ const Earth = () => {
       <spotLight 
         position={[0, 0, -3]}
         castShadow
+        penumbra={1}
+        intensity={1}
+        shadow-mapSize={1024}
       />
+      <pointLight intensity={1} />
       <primitive 
       object={earth.scene}
       scale={0.005}
@@ -36,6 +41,7 @@ const EarthCanvas = () => {
     <Canvas
       shadows
       frameloop='demand'
+      dpr={[1,2]}
       gl={{preserveDrawingBuffer: true}}
       camera={{ fov:16, near: 0.2, far: 200, position: [-3, 3, 6] }}
     >

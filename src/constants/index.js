@@ -13,6 +13,7 @@ import {
   roomLogo,
   cube,
   data,
+  llm
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +102,27 @@ const gameDevProjects = [
 ]
 
 const aiProjects = [
+  {
+    name: "LLM from Scratch",
+    description: "A decoder-only transformer model for text generation.",
+    url: "llm",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "transformers",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: llm,
+    source_code_link: "https://github.com/ittebagilani/TrafficSignIdentifier",
+  },
   {
     name: "Traffic Sign Identifier",
     description: "Detects German traffic signs using a trained neural network.",
