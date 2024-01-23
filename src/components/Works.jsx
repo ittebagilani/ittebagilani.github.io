@@ -47,9 +47,6 @@ import { Link } from "react-router-dom";
 //   );
 // };
 
-const openInNewTab = (url) => {
-  window.open(url, "_blank", "noreferrer");
-};
 
 const Works = () => {
   return (

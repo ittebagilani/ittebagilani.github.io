@@ -18,7 +18,6 @@ import DataScience from '../components/DataScience';
 import Photography from '../components/Photography';
 import Design from '../components/Design';
 import Sidebar from '../components/Sidebar';
-import RecentProjects from '../components/RecentProjects';
 import LLM from './LLM';
 
 const Main = () => {
@@ -27,17 +26,17 @@ const Main = () => {
     
       <ScrollToTop />
       <Routes>
-        <Route exact path='/' element={[<Sidebar />, <Hero />, <About />, <Works />, <DataScience />, <GameDev />, <Design />, <Photography />, <Contact/>]}></Route>
-        <Route exact path='/traffic' element={[<Sidebar />, <TrafficSign />]}></Route>
-        <Route exact path='/llm' element={[<Sidebar />, <LLM />]}></Route>
-        <Route exact path='/googlemini' element={[<Sidebar />, <GoogleMini />]}></Route>
-        <Route exact path='/sentenceparser' element={[<Sidebar />, <SentenceParser />]}></Route>
-        <Route exact path='/nimai' element={[<Sidebar />, <NimAI />]}></Route>
-        <Route exact path='/beyondearth' element={[<Sidebar />, <BeyondEarth />]}></Route>
-        <Route exact path='/jumpnhunt' element={[<Sidebar />, <JumpnHunt />]}></Route>
-        <Route exact path='/canonlens' element={[<Sidebar />, <CanonLens />]}></Route>
-        <Route exact path='/paradisechamber' element={[<Sidebar />, <ParadiseChamber />]}></Route>
-        <Route exact path='/gamedev' element={[<Sidebar />, <GameDev />]}></Route>
+        <Route exact path='/' element={[ <Hero />, <About />, <Works />, <DataScience />, <GameDev />, <Design />, <Photography />, <Contact/>]}></Route>
+        <Route exact path='/traffic' element={[<TrafficSign />]}></Route>
+        <Route exact path='/llm' element={[<LLM />]}></Route>
+        <Route exact path='/googlemini' element={[<GoogleMini />]}></Route>
+        <Route exact path='/sentenceparser' element={[<SentenceParser />]}></Route>
+        <Route exact path='/nimai' element={[<NimAI />]}></Route>
+        <Route exact path='/beyondearth' element={[<BeyondEarth />]}></Route>
+        <Route exact path='/jumpnhunt' element={[<JumpnHunt />]}></Route>
+        <Route exact path='/canonlens' element={[<CanonLens />]}></Route>
+        <Route exact path='/paradisechamber' element={[<ParadiseChamber />]}></Route>
+        <Route exact path='/gamedev' element={[<GameDev />]}></Route>
       </Routes>
     
     </>

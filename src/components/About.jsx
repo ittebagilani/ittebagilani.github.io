@@ -48,15 +48,13 @@ const About = () => {
       >
         I'm a second-year university student, specializing in a unique program 
         that integrates mechanical, electrical, and software engineering concepts. 
-        As a versatile developer, I possess a diverse skill set encompassing web 
-        development, game development, and AI technologies. In the realm of web 
-        development, I am proficient in utilizing cutting-edge tools like Three.js, 
-        React, and Tailwind CSS to create dynamic and engaging websites. When it 
-        comes to game development, I harness the power of Unity and Unreal Engine 
-        4 to craft captivating virtual worlds and exciting gameplay experiences. 
-        Additionally, I have extensive experience in AI technologies, having explored
-        PyTorch and Fast.ai in various projects, including computer vision and natural
-        language processing tasks.
+        As a versatile developer, I possess a diverse skill set encompassing AI 
+        technologies, web development, and game development. In the realm of artificial
+        intelligence, I have created predictive models using PyTorch and an LLM from scratch, 
+        using Tensorflow. In web development, I am proficient in utilizing cutting-edge tools 
+        like Three.js, React, and Tailwind CSS to create dynamic and engaging websites, like the one
+        you see now. When it comes to game development, I harness the power of Unity and Unreal Engine 
+        4 to craft captivating virtual worlds and exciting gameplay experiences.
 
 
 
