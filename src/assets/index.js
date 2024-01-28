@@ -45,6 +45,9 @@ import road from "./gallery/road.png";
 import sailboat from "./gallery/sailboat.jpg";
 import spades from "./gallery/spades.png";
 import llm from "./llm.jpg";
+import ds1 from "./ds1.png";
+import ds2 from "./ds2.png";
+import ds3 from "./ds3.png";
 
 export {
   building,
@@ -93,5 +96,8 @@ export {
   googleMiniLogo,
   trafficSignLogo,
   googlePlay,
-  llm
+  llm,
+  ds1,
+  ds2,
+  ds3
 };

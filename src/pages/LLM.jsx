@@ -3,21 +3,21 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-import { tsi } from "../assets";
+import { ds1, ds2, ds3 } from "../assets";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const LLM = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="pt-15">
-        <Link to="/">
+        {/* <Link to="/">
           <div className="rounded-xl bg-secondary w-[50px] ml-[-70px] mt-[-50px]">
           d
           </div>
 
-        </Link>
-          <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
+        </Link> */}
+        <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
         <div className="relative z-0 bg-primary no-scrollbar flex-col">
           <h2 className={`${styles.sectionHeadText}`}>LLM from Scratch.</h2>
 
@@ -40,14 +40,52 @@ const LLM = () => {
           from scratch was to understand how the transformer architecture works,
           and to gain a deeper understanding of the math and hidden features
           that it was built upon.
-        </div>
+          <br />
+          <br /> The first step of the transformer model is creating the
+          embeddings that the model will use to understand the information being
+          fed to it. A computer cannot comprehend words like humans can, so we
+          must translate words into vectors of numbers that hold semantic
+          meaning. From these vectors, the model can differentiate between
+          "today" and "tomorrow" and truly understand our language.
+          <div className="flex justify-center mt-10">
+            <img
+              src={ds1}
+              alt={"Traffic Sign Results"}
+              className="mt-auto self-center"
+            />
+          </div>
+          <br />
+          <br />
+          After the embeddings have been provided and understood by the model,
+          it is time for the attention mechanism. The attention mechanism is
+          what allows the model to determine the context of each word in
+          relation to every other. Like in a story, there are some parts that
+          are more important and hold more meaning than others. The attention
+          mechanism pays extra attention to these parts and that helps the model
+          understand the text more.
 
-        <div className="flex justify-center">
-          <img
-            src={tsi}
-            alt={"Traffic Sign Results"}
-            className="mt-auto self-center"
-          />
+          <div className="flex justify-center mt-10">
+            <img
+              src={ds2}
+              alt={"Traffic Sign Results"}
+              className="mt-auto self-center"
+            />
+          </div>
+          <br />
+          <br />
+          Continuing with the story example, a story has different layers of
+          information, such as characters, places, and events. Similary, the
+          decoder also has multiple layers, and each of these layers looks at
+          the story from a different perspective. Together, these layers
+          understand and organize the information in the provided text.
+
+          <div className="flex justify-center mt-10">
+            <img
+              src={ds3}
+              alt={"Traffic Sign Results"}
+              className="mt-auto self-center"
+            />
+          </div>
         </div>
       </motion.div>
     </>
