@@ -48,6 +48,7 @@ import llm from "./llm.jpg";
 import ds1 from "./ds1.png";
 import ds2 from "./ds2.png";
 import ds3 from "./ds3.png";
+import shsm from "./exp/shsm.jpg";
 
 export {
   building,
@@ -99,5 +100,6 @@ export {
   llm,
   ds1,
   ds2,
-  ds3
+  ds3,
+  shsm
 };

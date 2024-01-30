@@ -13,7 +13,8 @@ import {
   roomLogo,
   cube,
   data,
-  llm
+  llm,
+  shsm
 } from "../assets";
 
 export const navLinks = [
@@ -31,7 +32,44 @@ export const navLinks = [
   },
 ];
 
-
+const experiences = [
+  {
+    title: "Lead Project Manager",
+    company_name: "ICT SHSM",
+    // icon: shsm,
+    iconBg: "#000",
+    date: "March 2020 - April 2021",
+    points: [
+      "Configured FreePBX on a legacy server which involved installation and configuring services",
+      "Setup and installed Apache OFBiz, an open-source enterprise resource planning and customer relationship management system",
+      "Created thorough documentation detailing the setup, configuration, and maintenance procedures for both FreePBX and Apache OFBiz"
+    ],
+  },
+  {
+    title: "DeltaHacks 9 Hackathon",
+    company_name: "DeltaHacks",
+    // icon: tesla,
+    iconBg: "#000",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Led a team in the development of an online learning resource for programming using Figma.",
+      "Prioritized user satisfaction by utilizing the design process, creating a visually appealing platform. ",
+      " Facilitated seamless communication within the team, ensuring a shared understanding of objectives, timelines, and deliverables."
+    ],
+  },
+  {
+    title: "Teaching Assistant",
+    company_name: "McMaster University",
+    // icon: tesla,
+    iconBg: "#000",
+    date: "Jan 2024 - Present",
+    points: [
+      "Effectively conducted lab sessions to guide students through the intricacies of the course.",
+      "Held regular office hours to provide individualized support, address queries, and offer clarification on course content.",
+      "Contributed to the creation of supplemental materials to enrich the learning experience and provide additional practice opportunities."
+    ],
+  }
+];
 
 const services = [
   {
@@ -245,4 +283,4 @@ const designProjects = [
   },
 ];
 
-export { services, designProjects, gameDevProjects, aiProjects };
+export { experiences, services, designProjects, gameDevProjects, aiProjects };
