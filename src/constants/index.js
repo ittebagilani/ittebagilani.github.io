@@ -58,14 +58,14 @@ const experiences = [
     ],
   },
   {
-    title: "Teaching Assistant",
+    title: "C++ Teaching Assistant",
     company_name: "McMaster University",
     // icon: tesla,
     iconBg: "#000",
     date: "Jan 2024 - Present",
     points: [
-      "Effectively conducted lab sessions to guide students through the intricacies of the course.",
-      "Held regular office hours to provide individualized support, address queries, and offer clarification on course content.",
+      "Effectively conducted lab sessions to guide students through the intricacies of C++ and object-oriented programming.",
+      "Held regular office hours to provide troubleshooting support, address queries, and offer clarification on course content.",
       "Contributed to the creation of supplemental materials to enrich the learning experience and provide additional practice opportunities."
     ],
   }
