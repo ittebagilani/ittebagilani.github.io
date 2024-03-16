@@ -14,7 +14,9 @@ import {
   cube,
   data,
   llm,
-  shsm
+  shsm,
+  ecocar,
+  coding
 } from "../assets";
 
 export const navLinks = [
@@ -88,9 +90,9 @@ const services = [
     id: "design",
   },
   {
-    title: "Photographer",
+    title: "Extras",
     icon: camera,
-    id: "photography",
+    id: "extras",
   },
 ];
 
@@ -283,4 +285,40 @@ const designProjects = [
   },
 ];
 
-export { experiences, services, designProjects, gameDevProjects, aiProjects };
+const extras = [
+  
+  {
+    name: "McMaster EcoCar",
+    description: "Reengineering the Cadillac Lyriq",
+    url: "ecocar",
+    tags: [
+      {
+        name: "engineering",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cad",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecocar,
+  },
+  {
+    name: "Coding Club",
+    description: "A safe environment to learn coding.",
+    url: "codingclub",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "green-text-gradient",
+      },
+    ],
+    image: coding,
+  },
+];
+
+export { experiences, services, designProjects, gameDevProjects, aiProjects, extras };

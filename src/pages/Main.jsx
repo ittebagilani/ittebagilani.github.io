@@ -20,6 +20,7 @@ import Design from '../components/Design';
 import Sidebar from '../components/Sidebar';
 import LLM from './LLM';
 import Experience from '../components/Experience';
+import Extras from '../components/Extras';
 
 const Main = () => {
   return (
@@ -27,7 +28,7 @@ const Main = () => {
     
       <ScrollToTop />
       <Routes>
-        <Route exact path='/' element={[ <Hero />, <About />, <Experience />, <Works />, <DataScience />, <GameDev />, <Design />, <Photography />, <Contact/>]}></Route>
+        <Route exact path='/' element={[ <Hero />, <About />, <Experience />, <Works />, <DataScience />, <GameDev />, <Design />, <Extras />, <Photography />, <Contact/>]}></Route>
         <Route exact path='/traffic' element={[<TrafficSign />]}></Route>
         <Route exact path='/llm' element={[<LLM />]}></Route>
         <Route exact path='/googlemini' element={[<GoogleMini />]}></Route>

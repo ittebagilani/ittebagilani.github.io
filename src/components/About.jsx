@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] xs:m-auto w-full ">
+    <Tilt className="xs:w-[250px] xs:m-auto w-full items-center">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full 
@@ -21,7 +21,7 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          // bg-[#8C7A6B]
+          
           className="rounded-[20px] py-5 px-12 min-h-[280px] flex 
           justify-evenly items-center flex-col"
         >

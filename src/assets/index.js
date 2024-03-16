@@ -49,8 +49,13 @@ import ds1 from "./ds1.png";
 import ds2 from "./ds2.png";
 import ds3 from "./ds3.png";
 import shsm from "./exp/shsm.jpg";
+import ecocar from "./ecocar.png";
+import coding from "./coding1.jpg";
+
 
 export {
+  coding,
+  ecocar,
   building,
   bus,
   longwayahead,
