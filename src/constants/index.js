@@ -289,7 +289,7 @@ const extras = [
   
   {
     name: "McMaster EcoCar",
-    description: "Reengineering the Cadillac Lyriq",
+    description: "GMC sponsored engineering competition.",
     url: "ecocar",
     tags: [
       {
