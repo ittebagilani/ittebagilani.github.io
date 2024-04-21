@@ -7,29 +7,29 @@ import { me } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[800px] flex gap-20 ml-10">
-      <div className=" w-[500px] h-full text-black">
+    <div className="relative w-full h-[800px] flex gap-20 ml-12">
+      <div className=" w-[500px] h-full text-black ">
         <h1
-          className={`${styles.heroHeadText} text-white font-black justify-center items-center py-20`}
+          className={`${styles.heroHeadText} text-white pl-5 font-black justify-center items-center py-20`}
         >
           Itteba
         </h1>
         <h1
-          className={`${styles.heroHeadText} text-[#dfd9ff] font-black justify-center items-center -mt-10`}
+          className={`${styles.heroHeadText} text-[#dfd9ff] pl-5 font-black justify-center items-center -mt-10`}
         >
           Gilani
         </h1>
 
-        <p className={`${styles.heroSubText} mt-20`}>
-            Engineer <span className="text-[#dfd9ff]">by day,</span>
+        <p className={`${styles.heroSubText} mt-20 pl-5`}>
+            Engineer <span className="text-[#dfd9ff]">by day,<br /> </span> Developer <span className="text-[#dfd9ff]">by night, <br /></span> Photographer <span className="text-[#dfd9ff]">24x7.</span>
           </p>
-          <p className={`${styles.heroSubText} mt-5`}>
+          {/* <p className={`${styles.heroSubText} mt-5`}>
             Developer <span className="text-[#dfd9ff]">by night,</span>
           </p>
           
           <p className={`${styles.heroSubText} mt-5`}>
             Photographer <span className="text-[#dfd9ff]">24x7.</span>
-          </p>
+          </p> */}
       </div>
       <div className=" w-[500px] h-full text-black pl-[35px] ">
         <img width="428" src={me} className="rounded-xl shadow-3xl"/>
