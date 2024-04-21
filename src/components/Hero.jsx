@@ -15,10 +15,21 @@ const Hero = () => {
           Itteba
         </h1>
         <h1
-          className={`${styles.heroHeadText} text-[#b5a1ff] font-black justify-center items-center -mt-10`}
+          className={`${styles.heroHeadText} text-[#dfd9ff] font-black justify-center items-center -mt-10`}
         >
           Gilani
         </h1>
+
+        <p className={`${styles.heroSubText} mt-20`}>
+            Engineer <span className="text-[#dfd9ff]">by day,</span>
+          </p>
+          <p className={`${styles.heroSubText} mt-5`}>
+            Developer <span className="text-[#dfd9ff]">by night,</span>
+          </p>
+          
+          <p className={`${styles.heroSubText} mt-5`}>
+            Photographer <span className="text-[#dfd9ff]">24x7.</span>
+          </p>
       </div>
       <div className=" w-[500px] h-full text-black pl-[35px] ">
         <img width="428" src={me} className="rounded-xl shadow-3xl"/>
