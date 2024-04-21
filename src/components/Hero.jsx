@@ -15,7 +15,7 @@ const Hero = () => {
           Itteba
         </h1>
         <h1
-          className={`${styles.heroHeadText} text-[#957bf3] font-black justify-center items-center`}
+          className={`${styles.heroHeadText} text-[#957bf3] font-black justify-center items-center -mt-10`}
         >
           Gilani
         </h1>
