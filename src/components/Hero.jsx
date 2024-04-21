@@ -7,9 +7,24 @@ import { me } from "../assets";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[800px] flex">
-      <div
-        className={`relative inset-0 max-w-xl pl-5 flex flex-row gap-5`}
+    <div className="relative w-full h-[800px] flex gap-20 ml-10">
+      <div className=" w-[500px] h-full text-black">
+        <h1
+          className={`${styles.heroHeadText} text-white font-black justify-center items-center py-20`}
+        >
+          Itteba
+        </h1>
+        <h1
+          className={`${styles.heroHeadText} text-[#957bf3] font-black justify-center items-center`}
+        >
+          Gilani
+        </h1>
+      </div>
+      <div className=" w-[500px] h-full text-black pl-[35px] ">
+        <img width="428" src={me} className="rounded-xl shadow-3xl"/>
+      </div>
+      {/* <div
+        className={`relative w-[600px] pl-5 gap-5 bg-white`}
       >
         <div className="text-left justify-center items-center ">
           <h1
@@ -17,8 +32,7 @@ const Hero = () => {
           >
             Itteba{" "}
             <span className="text-[#dfd9ff]">
-              <br />
-              <br />
+              
               Gilani
             </span>
           </h1>
@@ -36,12 +50,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="my-auto max-w-xl ml-[350px]">
+      <div className="my-auto w-[500px] ml-[350px] bg-slate-50">
         <img width="400" src={me} />
       </div>
 
-      {/* <ComputersCanvas/> */}
-    </section>
+      <ComputersCanvas/> */}
+    </div>
   );
 };
 

@@ -51,7 +51,7 @@ import ds3 from "./ds3.png";
 import shsm from "./exp/shsm.jpg";
 import ecocar from "./ecocar.png";
 import coding from "./coding1.jpg";
-import me from "./me.jpg";
+import me from "./me.png";
 
 export {
   me,
