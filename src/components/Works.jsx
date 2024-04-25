@@ -55,10 +55,10 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex ">
+      {/* <div className="w-full flex m-auto "> */}
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-[#370926] text-[17px] max-w-3xl leading-[30px] text-center m-auto"
         >
           My skills and experience are showcased through the following projects. 
           Each project is concisely described and complemented by visuals, such
@@ -66,7 +66,7 @@ const Works = () => {
           reflects my proficiency in tackling intricate challenges, adeptness 
           with various technologies, and effective project management.
         </motion.p>
-      </div>
+      {/* </div> */}
     </>
   );
 };

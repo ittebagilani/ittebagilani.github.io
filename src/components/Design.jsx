@@ -10,8 +10,8 @@ const Design = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <div className="relative z-0 bg-primary no-scrollbar">
-          <h2 className="text-[40px] font-bold">3D Design</h2>
+        <div className="relative z-0 text-[#003049] no-scrollbar">
+          <h2 className="text-[40px] font-bold text-center">3D Design</h2>
         </div>
 
         <div className="mt-20 flex flex-wrap gap-7">

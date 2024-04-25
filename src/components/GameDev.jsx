@@ -10,8 +10,8 @@ const GameDev = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <div className="relative bg-primary no-scrollbar">
-          <h2 className="text-[40px] font-bold">Game Dev.</h2>
+        <div className="relative text-[#003049] no-scrollbar">
+          <h2 className="text-[40px] font-bold text-center">Game Dev.</h2>
         </div>
 
         <div className="mt-20 flex flex-wrap gap-7">

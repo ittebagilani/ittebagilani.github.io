@@ -26,7 +26,7 @@ const ServiceCard = ({ index, title, icon }) => {
           justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-secondary text-[20px] font-bold text-center">
+          <h3 className="text-[#370926] text-[20px] text-center">
             {title}
           </h3>
         </div>
@@ -44,7 +44,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
+        className="mt-4 text-[#370926] text-[17px] max-w-5xl leading-[30px] text-center"
       >
         I'm a second-year university student, specializing in a unique program 
         that integrates mechanical, electrical, and software engineering concepts. 

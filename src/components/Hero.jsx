@@ -7,21 +7,22 @@ import { me } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[800px] flex gap-20 ml-12">
+    <div className="relative w-full h-[750px] flex gap-20 ml-12">
       <div className=" w-[500px] h-full text-black ">
         <h1
-          className={`${styles.heroHeadText} text-white pl-5 font-black justify-center items-center py-20`}
+          className={`${styles.heroHeadText} text-[#003049] pl-5 font-black justify-center items-center py-20`}
         >
           Itteba
         </h1>
         <h1
-          className={`${styles.heroHeadText} text-[#dfd9ff] pl-5 font-black justify-center items-center -mt-10`}
+          className={`${styles.heroHeadText} text-[#370926] pl-5 font-black justify-center items-center -mt-[30px]`}
         >
+          {/* #937666 */}
           Gilani
         </h1>
 
-        <p className={`${styles.heroSubText} mt-20 pl-5`}>
-            Engineer <span className="text-[#dfd9ff]">by day,<br /> </span> Developer <span className="text-[#dfd9ff]">by night, <br /></span> Photographer <span className="text-[#dfd9ff]">24x7.</span>
+        <p className={`${styles.heroSubText} mt-20 pl-5 text-[#003049]`}>
+            Engineer <span className="text-[#370926]">by day,<br /> </span> Developer <span className="text-[#370926]">by night, <br /></span> Photographer <span className="text-[#370926]">24x7.</span>
           </p>
           {/* <p className={`${styles.heroSubText} mt-5`}>
             Developer <span className="text-[#dfd9ff]">by night,</span>
@@ -31,8 +32,8 @@ const Hero = () => {
             Photographer <span className="text-[#dfd9ff]">24x7.</span>
           </p> */}
       </div>
-      <div className=" w-[500px] h-full text-black pl-[35px] ">
-        <img width="428" src={me} className="rounded-xl shadow-3xl"/>
+      <div className=" w-[500px] h-[750px]  text-black -mt-5">
+        <img width="400" src={me} className="rounded-xl drop-shadow-2xl mx-auto"/>
       </div>
       {/* <div
         className={`relative w-[600px] pl-5 gap-5 bg-white`}

@@ -21,10 +21,10 @@ const ProjectCard = ({ index, name, description, tags, image }) => {
           </div>
   
           <div className="mt-5">
-            <h3 className="text-center text-white font-bold text-[24px]">
+            <h3 className="text-center text-[#003049] font-bold text-[24px]">
               {name}
             </h3>
-            <p className="text-center mt-2 text-secondary text-[15px]">
+            <p className="text-center mt-2 text-black text-[15px]">
               {description}
             </p>
           </div>

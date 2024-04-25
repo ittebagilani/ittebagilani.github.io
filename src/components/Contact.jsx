@@ -62,17 +62,17 @@ const Contact = () => {
   }
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden z-0">
+    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 m-auto overflow-hidden z-0">
       <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
-        className="flex-[0.75] bg-[#121420] p-8 rounded-2xl"
+        className="flex-[0.75] bg-[#f0e3cb] p-8 rounded-2xl m-auto shadow-inner"
       >
         <h3 className={styles.sectionHeadText}>Get in touch.</h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-12 flex flex-col gap-8 m-auto"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4"></span>
@@ -82,7 +82,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="Your name please?"
-              className="bg-[#2b284c] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[#fdf0d5] py-4 px-6 placeholder:text-[#370926] text-black rounded-lg outline-none border-none font-medium"
             />
           </label>
 
@@ -94,7 +94,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="Your email please?"
-              className="bg-[#2b284c] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[#fdf0d5] py-4 px-6 placeholder:text-[#370926] text-black rounded-lg outline-none border-none font-medium"
             />
           </label>
           
@@ -106,26 +106,25 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What would you like to say?"
-              className="bg-[#2b284c] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[#fdf0d5] py-4 px-6 placeholder:text-[#370926] text-black rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <button 
             type="submit"
-            className="bg-secondary py-3 px-8 outline-none w-fit
-             text-tertiary font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-[#370926] py-3 px-8 outline-none w-fit m-auto
+             text-[#fdf0d5] font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas />
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }

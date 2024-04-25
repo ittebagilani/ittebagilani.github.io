@@ -10,8 +10,8 @@ const Photography = () => {
     
     
     <motion.div variants={textVariant()}>
-        <div className="relative z-0 bg-primary no-scrollbar">
-          <h2 className="text-[40px] font-bold pb-20">Photography.</h2>
+        <div className="relative z-0 text-[#003049] no-scrollbar">
+          <h2 className="text-[40px] font-bold pb-20 text-center">Photography.</h2>
         </div>
         <Gallery />
     </motion.div>

@@ -58,7 +58,7 @@ const Extras = () => {
       <div className="w-full flex flex-col">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-[#370926] text-[17px] max-w-3xl leading-[30px] text-center m-auto"
         >
           As I progressed through my academic journey, I embraced a variety of
           extracurricular activities, contributing to my overall growth. These
@@ -72,7 +72,7 @@ const Extras = () => {
         </motion.p>
 
         <motion.div variants={textVariant()}>
-          <div className="relative bg-primary no-scrollbar pt-10">
+          <div className="relative no-scrollbar pt-10">
             <div className="mt-20 flex flex-wrap gap-7">
               {extras.map((project, index) => {
                 return (
