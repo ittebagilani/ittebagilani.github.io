@@ -28,7 +28,7 @@ const Hero = () => {
         <img width="400" src={me} className="rounded-xl drop-shadow-2xl mx-auto"/>
       </div>
 
-      <ComputersCanvas/>
+      {/* <ComputersCanvas/> */}
     </div>
   );
 };
