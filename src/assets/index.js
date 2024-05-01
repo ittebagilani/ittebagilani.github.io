@@ -52,8 +52,11 @@ import shsm from "./exp/shsm.jpg";
 import ecocar from "./ecocar.png";
 import coding from "./coding1.jpg";
 import me from "./me.png";
+import battery1 from "./battery1.png";
+
 
 export {
+  battery1,
   me,
   coding,
   ecocar,

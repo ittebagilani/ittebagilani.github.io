@@ -21,6 +21,8 @@ import Sidebar from '../components/Sidebar';
 import LLM from './LLM';
 import Experience from '../components/Experience';
 import Extras from '../components/Extras';
+import Ecocar from './Ecocar';
+import CodingClub from './CodingClub';
 
 const Main = () => {
   return (
@@ -39,6 +41,8 @@ const Main = () => {
         <Route exact path='/canonlens' element={[<CanonLens />]}></Route>
         <Route exact path='/paradisechamber' element={[<ParadiseChamber />]}></Route>
         <Route exact path='/gamedev' element={[<GameDev />]}></Route>
+        <Route exact path='/ecocar' element={[<Ecocar />]}></Route>
+        <Route exact path='/codingclub' element={[<CodingClub />]}></Route>
       </Routes>
     
     </>

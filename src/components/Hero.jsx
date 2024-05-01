@@ -17,56 +17,18 @@ const Hero = () => {
         <h1
           className={`${styles.heroHeadText} text-[#370926] pl-5 font-black justify-center items-center -mt-[30px]`}
         >
-          {/* #937666 */}
           Gilani
         </h1>
 
         <p className={`${styles.heroSubText} mt-20 pl-5 text-[#003049]`}>
             Engineer <span className="text-[#370926]">by day,<br /> </span> Developer <span className="text-[#370926]">by night, <br /></span> Photographer <span className="text-[#370926]">24x7.</span>
           </p>
-          {/* <p className={`${styles.heroSubText} mt-5`}>
-            Developer <span className="text-[#dfd9ff]">by night,</span>
-          </p>
-          
-          <p className={`${styles.heroSubText} mt-5`}>
-            Photographer <span className="text-[#dfd9ff]">24x7.</span>
-          </p> */}
       </div>
       <div className=" w-[500px] h-[750px]  text-black -mt-5">
         <img width="400" src={me} className="rounded-xl drop-shadow-2xl mx-auto"/>
       </div>
-      {/* <div
-        className={`relative w-[600px] pl-5 gap-5 bg-white`}
-      >
-        <div className="text-left justify-center items-center ">
-          <h1
-            className={`${styles.heroHeadText} text-white font-black justify-center items-center py-20`}
-          >
-            Itteba{" "}
-            <span className="text-[#dfd9ff]">
-              
-              Gilani
-            </span>
-          </h1>
 
-          <p className={`${styles.heroSubText} mt-20`}>
-            Engineer <span className="text-[#dfd9ff]">by day,</span>
-          </p>
-          <p className={`${styles.heroSubText} mt-5`}>
-            Developer <span className="text-[#dfd9ff]">by night,</span>
-          </p>
-          
-          <p className={`${styles.heroSubText} mt-5`}>
-            Photographer <span className="text-[#dfd9ff]">24x7.</span>
-          </p>
-        </div>
-      </div>
-
-      <div className="my-auto w-[500px] ml-[350px] bg-slate-50">
-        <img width="400" src={me} />
-      </div>
-
-      <ComputersCanvas/> */}
+      <ComputersCanvas/>
     </div>
   );
 };

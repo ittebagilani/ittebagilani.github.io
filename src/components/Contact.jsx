@@ -101,7 +101,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4"></span>
             <textarea
-              rows={7}
+              rows={3}
               name="message"
               value={form.message}
               onChange={handleChange}

@@ -18,15 +18,15 @@ const LLM = () => {
 
         </Link> */}
         <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
-        <div className="relative z-0 bg-primary no-scrollbar flex-col">
+        <div className="relative z-0 no-scrollbar flex-col">
           <h2 className={`${styles.sectionHeadText}`}>LLM from Scratch.</h2>
 
-          <p className="text-secondary font-normal p-3.5">
+          <p className="text-[#370926] text-center font-normal p-3.5">
             A decoder-only transformer model for text generation.
           </p>
         </div>
 
-        <div className="text-[#b1a7d4] text-lg p-10">
+        <div className="text-[#370926] text-center text-lg p-10">
           Large language models (LLMs) have truly made a name for themselves
           with their human-like text generation, text summarization, and
           question answering abilities. I decided to build one from scratch. My

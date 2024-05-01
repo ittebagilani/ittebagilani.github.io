@@ -10,18 +10,18 @@ const SentenceParser = () => {
     <>
       <motion.div variants={textVariant()} className=' pt-15'>
 
-      <div className="relative z-0 bg-primary no-scrollbar">
+      <div className="relative z-0 no-scrollbar">
 
         <h2 className={`${styles.sectionHeadText}`}>
           Sentence Parser.
         </h2>
 
-        <p className='text-secondary font-normal p-3.5'>
+        <p className='text-[#370926] text-center font-normal p-3.5'>
           Takes a sentence and breaks it down into nounds, verbs, preprositions, etc.
         </p>
       </div>
 
-      <div className='text-[#b1a7d4] text-lg p-10'>
+      <div className='text-[#370926] text-center text-lg p-10'>
       Natural language processing (NLP) is a field of artificial 
       intelligence that allows computers to understand, interpret, 
       and generate human language. In this project, I built a tool 

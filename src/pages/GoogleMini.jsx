@@ -10,19 +10,19 @@ const GoogleMini = () => {
     <>
       <motion.div variants={textVariant()} className=' pt-15'>
 
-        <div className='relative z-0 bg-primary'>
+        <div className='relative z-0'>
 
           <h2 className={`${styles.sectionHeadText}`}>
             Google Mini.
           </h2>
 
-          <p className='text-secondary font-normal p-3.5'>
+          <p className='text-[#370926] text-center font-normal p-3.5'>
             An artificial intelligence model that can answer your questions. 
           </p>
 
         </div>
 
-        <div className='text-[#b1a7d4] text-lg p-10'>
+        <div className='text-[#370926] text-center text-lg p-10'>
           While the name suggests a useable search engine, Google Mini's
           knowledge is only limited to a small corpus of topics including 
           artificial intelligence, neural networks, and Python. This corpus 
@@ -36,7 +36,7 @@ const GoogleMini = () => {
  
         </div>
 
-        <div className='flex justify-center m-20 p-20'>
+        <div className='flex justify-center m-20 pr-20 pl-20 pb-20'>
           <img src={gm} alt={"Google Mini Results"} className='mt-auto self-center pb-100' />
         </div>
 

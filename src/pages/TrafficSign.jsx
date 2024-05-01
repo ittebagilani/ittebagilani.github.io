@@ -9,17 +9,17 @@ const TrafficSign = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="pt-15">
-        <div className="relative z-0 bg-primary no-scrollbar">
+        <div className="relative z-0 no-scrollbar">
           <h2 className={`${styles.sectionHeadText}`}>
             Traffic Sign Identifier.
           </h2>
 
-          <p className="text-secondary font-normal p-3.5">
+          <p className="text-[#370926] text-center font-normal p-3.5">
             Determines German traffic signs using a trained neural network.
           </p>
         </div>
 
-        <div className="text-[#b1a7d4] text-lg p-10">
+        <div className="text-[#370926] text-center text-lg p-10">
           TensorFlow is a popular open source developed by Google that allows
           you to build various machine learning models, particularly, neural
           networks. In this project, I used a public dataset known as the German

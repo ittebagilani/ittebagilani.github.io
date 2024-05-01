@@ -9,16 +9,16 @@ const JumpnHunt = () => {
   return (
     <>
       <motion.div variants={textVariant()} className=" pt-15">
-        <div className="relative z-0 bg-primary no-scrollbar">
+        <div className="relative z-0 no-scrollbar">
           <h2 className={`${styles.sectionHeadText}`}>Jump n Hunt.</h2>
 
-          <p className="text-secondary font-normal p-3.5">
+          <p className="text-[#370926] text-center font-normal p-3.5">
             A 2D platformer that takes you through an old village in search of
             apples.
           </p>
         </div>
 
-        <div className="text-[#b1a7d4] text-lg p-10">
+        <div className="text-[#370926] text-center text-lg p-10">
           Jump n Hunt is a 2D platformer game I created in the Unity game engine.
           It consists of 10 levels each of which you can only pass once you've
           collected all three of the apples hidden around the map. Pay close
