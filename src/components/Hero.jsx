@@ -7,29 +7,41 @@ import { me } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[750px] flex gap-20 ml-12">
-      <div className=" w-[500px] h-full text-black ">
+    <div className="relative w-full h-[750px] flex ml-12">
+      <div className=" w-[500px] h-full text-black flex-col md:block -ml-7 mt-7">
         <h1
-          className={`${styles.heroHeadText} text-[#003049] pl-5 font-black justify-center items-center py-20`}
+          className={`${styles.heroHeadText} text-[#003049] font-black justify-center items-center md:pt-20`}
         >
-          Itteba
+          Itteba <span className="text-[#370926] leading-loose">Gilani</span>
         </h1>
-        <h1
-          className={`${styles.heroHeadText} text-[#370926] pl-5 font-black justify-center items-center -mt-[30px]`}
+        {/* <h1
+          className={`${styles.heroHeadText} text-[#370926] pl-5 font-black justify-center items-center md:mt-10 `}
         >
           Gilani
-        </h1>
+        </h1> */}
 
-        <p className={`${styles.heroSubText} mt-20 pl-5 text-[#003049]`}>
-            Engineer <span className="text-[#370926]">by day,<br /> </span> Developer <span className="text-[#370926]">by night, <br /></span> Photographer <span className="text-[#370926]">24x7.</span>
+        <div className="text-left  md:-ml-0">
+          <p className={`${styles.heroSubText} text-[#003049] `}>
+            Engineer{" "}
+            <span className="text-[#370926]">
+              by day,
+              <br />{" "}
+            </span>{" "}
+            Developer{" "}
+            <span className="text-[#370926]">
+              by night, <br />
+            </span>{" "}
+            Photographer <span className="text-[#370926]">24x7.</span>
           </p>
+        </div>
       </div>
-      <div className=" w-[500px] h-[750px]  text-black -mt-5">
-        <img width="400" src={me} className="rounded-xl drop-shadow-2xl mx-auto"/>
+      <div className="w-[500px] h-[750px] text-black  md:-mt-5 md:ml-10 pr-14">
+        <img
+          width="400"
+          src={me}
+          className="rounded-xl drop-shadow-2xl mx-auto"
+        />
       </div>
-
-      {/* <ComputersCanvas/> */}
-      
     </div>
   );
 };

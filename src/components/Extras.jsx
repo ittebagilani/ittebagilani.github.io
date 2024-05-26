@@ -72,8 +72,8 @@ const Extras = () => {
         </motion.p>
 
         <motion.div variants={textVariant()}>
-          <div className="relative no-scrollbar pt-10">
-            <div className="mt-20 flex flex-wrap gap-7">
+          <div className="relative no-scrollbar pt-10 w-screen m-auto">
+            <div className="mt-20 flex flex-wrap gap-7 ml-auto mr-auto">
               {extras.map((project, index) => {
                 return (
                   <>

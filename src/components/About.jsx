@@ -62,7 +62,7 @@ const About = () => {
 
       </motion.p>
 
-      <div className="mt-20 flex flex-row gap-10 cursor-pointer">
+      <div className="mt-20 flex md:flex-row gap-10 cursor-pointer flex-col">
         {services.map((service, index) => (
           <a href={`#${service.id}`}>
             <ServiceCard key={service.title} index={index} {...service} />
