@@ -14,11 +14,7 @@ const Hero = () => {
         >
           Itteba <span className="text-[#370926] leading-loose">Gilani</span>
         </h1>
-        {/* <h1
-          className={`${styles.heroHeadText} text-[#370926] pl-5 font-black justify-center items-center md:mt-10 `}
-        >
-          Gilani
-        </h1> */}
+
 
         <div className="text-left  md:-ml-0">
           <p className={`${styles.heroSubText} text-[#003049] `}>
