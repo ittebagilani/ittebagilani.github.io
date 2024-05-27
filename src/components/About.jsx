@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { Link } from "react-router-dom";
 
 const ServiceCard = ({ index, title, icon }) => {
-  return (
+  return (  
     <Tilt className="xs:w-[250px] xs:m-auto w-full items-center">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
