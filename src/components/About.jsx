@@ -46,7 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-[#370926] text-[17px] max-w-5xl leading-[30px] text-center"
       >
-        I'm a second-year university student, specializing in a unique program 
+        I'm a third-year university student, specializing in a unique program 
         that integrates mechanical, electrical, and software engineering concepts. 
         As a versatile developer, I possess a diverse skill set encompassing AI 
         technologies, web development, and game development. In the realm of artificial

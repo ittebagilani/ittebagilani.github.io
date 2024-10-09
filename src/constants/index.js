@@ -16,7 +16,8 @@ import {
   llm,
   shsm,
   ecocar,
-  coding
+  coding,
+  battery1
 } from "../assets";
 
 export const navLinks = [
@@ -125,7 +126,7 @@ const gameDevProjects = [
     url: "jumpnhunt",
     tags: [
       {
-        name: "2Dplatformer",
+        name: "platformer",
         color: "blue-text-gradient",
       },
       {
@@ -134,6 +135,27 @@ const gameDevProjects = [
       },
       {
         name: "csharp",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jumpnHuntLogo,
+  },
+  {
+    name: "Dr. Bullet",
+    description:
+      "A 3D shooter game that is set in a doctor's office.",
+    url: "drbullet",
+    tags: [
+      {
+        name: "blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unrealengine",
+        color: "green-text-gradient",
+      },
+      {
+        name: "c++",
         color: "pink-text-gradient",
       },
     ],
@@ -185,17 +207,17 @@ const aiProjects = [
     source_code_link: "https://github.com/ittebagilani/TrafficSignIdentifier",
   },
   {
-    name: "Google Mini",
+    name: "RAG Chatbot",
     description:
-      "An artifical intelligence model that can answer your questions.",
-    url: "googlemini",
+      "An AI powered chatbot that can answer your questions regarding the company.",
+    url: "ragchatbot",
     tags: [
       {
-        name: "python",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "nltk",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
@@ -206,27 +228,27 @@ const aiProjects = [
     image: googleMiniLogo,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Sentence Parser",
-    description:
-      "Takes a sentence and breaks it down into nouns, verbs, prepositions, etc.",
-    url: "sentenceparser",
-    tags: [
-      {
-        name: "nltk",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "language",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sentenceParserLogo,
-  },
+  // {
+  //   name: "Sentence Parser",
+  //   description:
+  //     "Takes a sentence and breaks it down into nouns, verbs, prepositions, etc.",
+  //   url: "sentenceparser",
+  //   tags: [
+  //     {
+  //       name: "nltk",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "python",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "language",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: sentenceParserLogo,
+  // },
   // {
   //   name: "Nim AI",
   //   description:
@@ -282,6 +304,22 @@ const designProjects = [
       },
     ],
     image: roomLogo,
+  },
+  {
+    name: "EV Battery",
+    description: "A water and fireproof battery case for a sports-centered EV.",
+    url: "paradisechamber",
+    tags: [
+      {
+        name: "3Dmodel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tinkercad",
+        color: "green-text-gradient",
+      },
+    ],
+    image: battery1,
   },
 ];
 

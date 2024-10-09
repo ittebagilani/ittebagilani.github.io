@@ -2,7 +2,7 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
-import { aiProjects, gameDevProjects } from "../constants";
+import { aiProjects } from "../constants";
 import { Link } from "react-router-dom";
 import { ProjectCard } from "./ProjectCard";
 
